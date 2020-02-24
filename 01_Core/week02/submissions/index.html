@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nick Koehne - Wk 2 Toy Prob</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+    <div>
+        <div class="navbar">
+            <a href="#item1">Item1</a>
+            <a href="#item2">Item2</a>
+            <a href="#item3">Item3</a>
+            <a href="#item4">Item4</a>
+            <div class="dropdown">
+                <button class="dropbtn">Item5
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main-content">
+            <p class="rainbow-title">Colors of the Rainbow: ROY G. BIV</p>
+            <ul class="colorlist">
+                <li class="red">Red</li>
+                <li class="orange">Orange</li>
+                <li class="yellow">Yellow</li>
+                <li class="green">Green</li>
+                <li class="blue">Blue</li>
+                <li class="indigo">Indigo</li>
+                <li class="violet">Violet</li>
+            </ul>
+
+            <h1>Main Headline</h1>
+            <h3 class="subhead1">Subhead 1</h3>
+            <p class="support-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque iusto maxime suscipit, praesentium perspiciatis impedit perferendis corrupti consequuntur veniam hic facere eos, velit accusamus voluptate. Laborum quod sunt fuga unde?</p>
+            <h3 class="subhead2">Subhead 2</h3>
+            <p class="support-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde a culpa sint nesciunt repellat, et odio labore quod consectetur laudantium. Voluptatem perferendis doloremque et ratione maiores. Ducimus esse error hic.</p>
+
+            <form method="GET" id="form">
+                <fieldset class="fieldset">
+                    <legend class="legend">About You</legend><br>
+
+                    <label for="firstname">First Name:</label>
+                    <input type="text" id="firstname">
+
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" id="lastname"><br><br>
+
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+
+                    <p class="formtopic">Favorite Sport:</p>
+                    <select id="sportoptions">
+                        <option>Football</option>
+                        <option>Basketball</option>
+                        <option>Baseball</option>
+                        <option>Hockey</option>
+                        <option>Soccer</option>
+                        <option>Lacrosse</option>
+                        <option>Swimming</option>
+                    </select>
+
+                    <p class="formtopic">Favorite Pizza Toppings:</p>
+                    <input type="checkbox"> Cheese
+                    <input type="checkbox"> Pepperoni
+                    <input type="checkbox"> Sausage
+                    <input type="checkbox"> Chicken
+                    <input type="checkbox"> Bacon
+                    <input type="checkbox"> Pineapple
+                    <input type="checkbox"> Jalapenos
+                </fieldset><br><br>
+
+                <fieldset>
+                    <p>Enter Full Names Separated by Commas:</p>
+                    <textarea type="text" id="myText" rows="5" cols="100"></textarea><br><br>
+                    <button class="btnSave" onclick="getNames()"> Save</button>
+                    <div id="list"></div>
+                </fieldset>
+
+            </form>
+        </div> <!-- end main-content-->
+        
+        <div class="sidebar">
+            <ul>
+                <li><a href="https://www.espn.com">ESPN</a></li>
+                <li><a href="https://www.bleacherreport.com">Bleacher Report</a></li>
+                <li><a href="https://www.wsj.com">Wall Street Journal</a></li>
+            </ul>
+        </div>
+
+        <footer class="entirefooter">
+            <p class="copyright">&copy;2020 Nick Koehne</p>
+            <a href="https://www.twitter.com">Twitter</a>
+            <a href="https://www.instagram.com">Instagram</a>
+            <a href="https://www.facebook.com">Facebook</a>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
