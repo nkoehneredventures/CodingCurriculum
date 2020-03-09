@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Accel Sports</title>
+        <link href="contact.css" rel="stylesheet">
+        <!-- Load an icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <nav class="topnav">
+            <a href="../index.html">Home</a>
+            <a href="../Products/products.html">Products</a>
+            <a href="contact.html">Contact</a>
+            <a href="../Search/search.html">Search</a>
+            <div id="cart">
+                <a href="#">Cart <i class="fa fa-shopping-cart fa-lg"></i></a>
+            </div>
+        </nav>
+
+        <h1>Contact Form</h1>
+        <form class="form">
+            <fieldset class="fieldset">
+                <legend class="legend">Your Info</legend><br>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your first name..."><br>
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..."><br><br>
+                
+                <p><strong>Gender:</strong></p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+
+                <p><strong>Preferred Contact Method:</strong></p>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="emailaddress" placeholder="Your email..."><br>
+
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" name="phonenumber" placeholder="(xxx)-xxx-xxxx"><br><br>
+
+                
+                <input type="radio" id="email" name="contactmethod" value="email">
+                <label for="male">Email</label>
+                <input type="radio" id="phone" name="contactmethod" value="phone">
+                <label for="female">Phone</label><br><br>
+
+                <p><strong>How Did You Hear About Us?</strong></p>
+                <div>
+                    <input type="checkbox" id="conference" name="heardaboutus" value="conference">
+                    <label for="conference"> Conference</label>
+                    <input type="checkbox" id="TV" name="heardaboutus" value="TV">
+                    <label for="TV"> TV</label><br>
+                </div>
+                
+                <div class="checkbox">
+                    <input type="checkbox" id="radio" name="heardaboutus" value="radio">
+                    <label for="radio"> Radio</label>
+                    <input type="checkbox" id="wordofmouth" name="heardaboutus" value="wordofmouth">
+                    <label for="wordofmouth"> Word of Mouth</label><br>
+
+                </div>
+                
+                <div class="checkbox">
+                    <input type="checkbox" id="other" name="heardaboutus" value="other">
+                    <label for="other"> Other </label><input type="text" id="othervalue" name="other"><br><br>
+                    <input type="submit" value="Submit">
+
+                </div>
+                
+                
+            </fieldset>
+        </form>
+
+        <footer class="footer">
+            <!-- Add font awesome icons -->
+            <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+            <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+            <div class="copyright">
+                <p style="font-weight: bold;" >Accel Sports &copy;2020</p>
+            </div>
+            
+        </footer>
+
+    </body>
+</html>

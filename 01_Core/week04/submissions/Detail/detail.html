@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Accel Sports</title>
+        <link href="detail.css" rel="stylesheet">
+        <!-- Load an icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <nav class="topnav">
+            <a href="../index.html">Home</a>
+            <a href="../Products/products.html">Products</a>
+            <a href="../Contact/contact.html">Contact</a>
+            <a href="../Search/search.html">Search</a>
+            <div id="cart">
+                <a href="#">Cart <i class="fa fa-shopping-cart fa-lg"></i></a>
+            </div>
+        </nav>
+
+        <h1>Product Detail Page</h1>
+
+        <div class="product">
+            <h2>Football</h2>
+            <img src="../images/football.jpg" style="width: 120px;height: 100px;" alt="football">
+            <p class="price">Price: $80</p>
+            <p>Description: <br> Wilson GST Premium Leather football</p>
+            <form>
+                <fieldset>
+                   <legend>Customizations</legend>
+                   <p>
+                      <label>Quantity: </label>
+                      <select id = "quantityList">
+                        <option value=" " disabled selected>Select</option>
+                        <option value = "1">one</option>
+                        <option value = "2">two</option>
+                        <option value = "3">three</option>
+                        <option value = "4">four</option>
+                        <option value = "4">five</option>
+                        <option value = "4">six</option>
+                        <option value = "4">seven</option>
+                        <option value = "4">eight</option>
+                        <option value = "4">nine</option>
+                        <option value = "4">ten</option>
+                      </select>
+                   </p>
+                   <p>
+                    <label>Size: </label>
+                    <select id = "sizeList">
+                      <option value=" " disabled selected>Select</option>
+                      <option value = "peewee">Pee Wee</option>
+                      <option value = "junior">Junior</option>
+                      <option value = "highschool">High School</option>
+                      <option value = "collegiate">Collegiate</option>
+                      <option value = "professional">Professional</option>
+                    </select>
+                 </p>
+                </fieldset>
+                <p><button>Add to Cart</button></p>
+             </form>
+        </div>
+
+
+
+
+
+
+        <footer class="footer">
+            <!-- Add font awesome icons -->
+            <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+            <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+            <div class="copyright">
+                <p style="font-weight: bold;" >Accel Sports &copy;2020</p>
+            </div>
+            
+        </footer>
+
+    </body>
+</html>
