@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Accel Sports</title>
+        <link href="styles.css" rel="stylesheet">
+        <!-- Load an icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+	    
+    </head>
+    <body class="body">
+
+        <nav class="topnav">
+                <a href="index.html">Home</a>
+                <a href="Products/products.html">Products</a>
+                <a href="Contact/contact.html">Contact</a>
+                <a href="Search/search.html">Search</a>
+            <div id="cart">
+                <a href="#">Cart <i class="fa fa-shopping-cart fa-lg"></i></a>
+            </div>
+        </nav>
+
+        <main class="content">
+            <div class="aboutus">
+                <section>
+                    <h1>About Us</h1>
+                        <p class="description">Accel Sports is a premier sporting goods supplier with an unwavering commitment to offer the highest quality equipment and products. Our mission is to equip the modern athlete with the proper tools and resources to be successful in their respective arenas. Whether you're a little league player, a recreational athlete, or an Olympic gold medalist we have anything and everything you will need to chase your passion and take your craft to the next level.</p>
+                </section>
+            </div>
+
+            <div class="featuredproducts">
+                <section>
+                    <h1>Featured Products</h1>
+                    <div class="slideshow">
+
+                        <div class="slide fade">
+                            <a href="Detail/detail.html">
+                                <img src="images/football.jpg" style="width: 50%;">
+                            </a>
+                            <div class="text">Wilson GST Football</div>
+                        </div>
+
+                        <div class="slide fade">
+                            <a href="Detail/detail.html">
+                                <img src="images/basketball.jpeg" style="width:50%"  class="basketball">
+                            </a>
+                            <div class="text">Wilson Evolution Basketball</div>
+                        </div>
+
+                        <div class="slide fade">
+                            <a href="Detail/detail.html">
+                                <img src="images/ladder.jpeg" style="width:50%;">
+                            </a>
+                            <div class="text">SKLZ Speed and Agility</div>
+                        </div>
+
+                    </div> <!-- end slideshow-->
+
+                    <div class="slideshownav">
+                        <button class="leftbutton bannernavbutton" onclick="plusSlides(-1)">Back</button>
+                        <button class="rightbutton bannernavbutton" onclick="plusSlides(1)">Next</button>
+                        
+                    </div>
+                </section>
+            </div>
+
+        </main> <!-- End Content -->
+
+        <footer class="footer">
+            <!-- Add font awesome icons -->
+            <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+            <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+            <div class="copyright">
+                <p style="font-weight: bold;" >Accel Sports &copy;2020</p>
+            </div>
+            
+        </footer>
+
+    </body>
+    <script src="script.js"></script>
+</html>
